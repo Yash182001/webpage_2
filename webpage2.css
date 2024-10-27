@@ -1,0 +1,90 @@
+
+#header-card{
+    background-image: url('meeting.avif');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#content{
+    background-color: #333333;
+}
+
+#hamburger{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    border: none;
+   
+ }
+
+ #card1{
+    opacity:80%;
+    border: none;
+    width: 25%;height: 55%;
+    margin-left: 25%; border-radius: 50px;
+    margin-top: 100px;
+ }
+
+ #people1{
+    background-image: url(marybrown.jpg);
+     height: 600px;
+      background-repeat: no-repeat;
+       background-size: cover;
+ }
+
+ #people2{
+    background-image: url(nickrichmond.jpg);
+      height: 600px;
+       background-repeat: no-repeat;
+        background-size: cover;
+ }
+
+ #people3{
+    background-image: url(ninagreenfield.jpg);
+      height: 600px;
+       background-repeat: no-repeat;
+        background-size: cover;
+ }
+
+ #form-control-last:hover {
+   background-color: #E8F0FD;
+ }
+
+
+ @media screen and (max-width:600px){
+    .container-fluid .row [class^="col-"]
+      {
+          width: 100%;
+          max-width: 100%;
+          text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container .row [class^="col-"]
+      {
+          width: 100%;
+          max-width: 100%;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+ }
+
+ .card{
+    
+    height: auto;
+    width: 100%;
+    text-align: left;
+
+ }
+
+ #content{
+    width: 100%;
+    max-width:100% ;
+    height: auto;
+ }
+}
+
